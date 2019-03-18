@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "linebreak-style": [
+        "off"
+    ],
+    "react/destructuring-assignment": [
+        "off"
+    ],
+    "max-len": [
+        "off"
+    ],
+    "react/jsx-one-expression-per-line": [
+        "off"
+    ]
+},
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  }
+}
