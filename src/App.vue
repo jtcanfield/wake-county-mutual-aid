@@ -1,7 +1,13 @@
 <template>
   <div id="app">
     <img alt="logo" id="logo" src="./assets/logo.png">
-    <Header msg="Welcome to Your Vue.js App"/>
+    <Header/>
+    <!-- 
+      YOU NEED TO RE ADD RECCORDS FOR MAILGUN
+      Type: CNAME Reccord
+      Host: email.mail
+      Value: mailgun.org.
+     -->
   </div>
 </template>
 
