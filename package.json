@@ -3,27 +3,38 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "server:start": "node app.js",
+    "server:dev": "nodemon app.js",
     "lint": "eslint .",
-    "fix": "eslint . --fix"
+    "fix": "eslint . --fix",
+    "deploy": "npm run build && firebase deploy"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "express": "~4.16.0",
+    "firebase": "^5.9.0",
     "hbs": "~4.0.1"
   },
   "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21",
     "@babel/core": "^7.3.4",
     "@babel/plugin-transform-runtime": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "@babel/runtime": "^7.3.4",
+    "@vue/cli-service": "^3.5.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.15.3",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "vue": "^2.6.9",
+    "vue-router": "^3.0.2"
   }
 }
