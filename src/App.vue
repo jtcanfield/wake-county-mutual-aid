@@ -7,24 +7,24 @@
       Type: CNAME Reccord
       Host: email.mail
       Value: mailgun.org.
-     -->
+    -->
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Header from "./components/Header.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Header
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -32,6 +32,6 @@ export default {
 }
 #logo {
   width: 100%;
-  max-width: 400px;
+  max-width: 200px;
 }
 </style>
