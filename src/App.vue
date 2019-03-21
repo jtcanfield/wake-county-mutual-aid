@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="px-3">
     <img alt="logo" id="logo" src="./assets/logo.png">
     <Header/>
     <!-- 

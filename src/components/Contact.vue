@@ -1,5 +1,5 @@
 <template>
-  <div class="contact px-3">
+  <div class="contact">
     <h3>Contact us!</h3>
     <form>
       <div class="form-group">
