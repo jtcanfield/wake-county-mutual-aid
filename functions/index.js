@@ -15,8 +15,8 @@ exports.sendMail = functions.https.onRequest((req, res) => {
     `;
       const data = {
         from: emailValidator.validate(`${body.email}`) ? body.email : 'website@wakecountymutualaidcollective.com',
-        to: 'jonathantcanfield@gmail.com',
-        // to: 'wakecountymutualaidcollective@gmail.com',
+        to: 'wakecountymutualaidcollective@gmail.com',
+        // to: 'jonathantcanfield@gmail.com',
         // cc: process.env.EMAIL_2,
         subject: 'Website Message',
         text,
