@@ -23,7 +23,7 @@
           aria-describedby="emailHelp"
         >
         <small
-          v-if="messageError"
+          v-if="contactError"
           class="form-text text-danger"
         >Please provide either a phone number or email so that we can contact you!</small>
       </div>
