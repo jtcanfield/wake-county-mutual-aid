@@ -2,7 +2,6 @@
   "hosting": {
     "public": "dist",
     "ignore": [
-      "./functions/**",
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
