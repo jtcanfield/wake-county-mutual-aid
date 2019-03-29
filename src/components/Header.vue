@@ -1,15 +1,13 @@
 <template>
   <div class="hello">
     <h1>Wake County Mutual Aid Collective</h1>
-    <p>Are you sick, cold, tired, displaced, a survivor of domestic abuse or in need of aid?
+    <p>
+      Are you sick, cold, tired, displaced, a survivor of domestic abuse or in need of aid?
       <br>Call us at (919)-438-2989 and leave us a message with how can help.
       <br>WE DO NOT CALL THE POLICE EVER! WE KEEP US SAFE!
     </p>
-    <a
-      href="https://www.gofundme.com/wake-county-mutual-aid-fund"
-      target="_blank"
-      rel="noopener"
-    >Please consider donating to our fund to help those facing emergency situations!
+    <a href="https://www.gofundme.com/wake-county-mutual-aid-fund" target="_blank" rel="noopener">
+      Please consider donating to our fund to help those facing emergency situations!
       <br>Click here to donate to our gofundme!
     </a>
     <br>
