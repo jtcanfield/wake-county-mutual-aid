@@ -2,7 +2,8 @@
   <div class="contact">
     <h3>Contact us!</h3>
     <div v-if="error">
-      <p>There was an error sending your message.
+      <p>
+        There was an error sending your message.
         <br>Please call us at 919-438-2989 or email us at wakecountymutualaidcollective@gmail.com
       </p>
       <button @click="resetStatus" class="btn btn-primary">Try again</button>
